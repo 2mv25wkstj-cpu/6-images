@@ -1,5 +1,8 @@
-.html{
+html{
     font-family: Arial, Helvetica, sans-serif;
+}
+.pipe {
+    color:grey
 }
 .by-line { 
     border: top 1px soild grey;
@@ -7,14 +10,15 @@
     font-size: 14px;
     padding-top: 10px 
 }
-
-
-
-.wrapper{
-    max width:700px;
-margin: 0 auto; 
+.by-line-link{
+    color:teal;
 }
 
+
+.wrapper {
+    max-width:700px;
+    margin: 0 auto;
+}
 
 
 .blog-image{
@@ -25,17 +29,12 @@ margin: 0 auto;
 .caption {
     background-color: rgb(209, 205, 199);
     padding:15px;
-    margin: top -4px;
+    margin-top:-4px;
     font-size:14px ;
+}
 
-}
-p::first-letter {
-     initial-letter:3;
-     font-size:14px;
-     font-weight:bold;
-}
 .has-drop-cap::first-letter{
 initial-letter:3;
 color:gold;
-
+margin-right:10px;
 }
